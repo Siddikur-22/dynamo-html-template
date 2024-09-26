@@ -1722,6 +1722,8 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
 
 .Pricing-section {
   background-image: url("/assets/image/All-image/banner-img/bg-6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .Pricing-section .section-title .content span {
   color: #3147ff;
