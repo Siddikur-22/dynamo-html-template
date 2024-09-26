@@ -1576,6 +1576,9 @@ header.style-1 {
         svg {
           margin-left: 8px;
         }
+        &:hover{
+          background-color: black;
+        }
       }
     }
 
@@ -1832,8 +1835,8 @@ header.style-1 {
   }
 }
 // Essential section end
-// feedback section start
-.feedback-section {
+// feedback section star
+.feedback-section{
   .section-title {
     .content {
       span {
@@ -1868,92 +1871,121 @@ header.style-1 {
       }
     }
   }
-  .carousel {
+  .slider-btn-and-pagination-wrap{
+  .slider-btn-group{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    .home3-testimonial-prev{
+      background-color: #ffffff;
+      border: 1px solid #49526180;
+      width: 51px;
+      height: 51px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      &:hover{
+        background-color: rgba(49, 71, 255, 1);
+        border: 1px solid rgba(49, 71, 255, 1);
+        svg{
+          path{
+            fill: white;
+          }
+        }
+       }
+      
+    }
+    .home3-testimonial-next{
+      background-color: #ffffff;
+      border: 1px solid #49526180;
+      width: 51px;
+      height: 51px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover{
+        background-color: rgba(49, 71, 255, 1);
+        border: 1px solid rgba(49, 71, 255, 1);
+        svg{
+          path{
+            fill: white;
+          }
+        }
+       }
+     
+    }
+  
+  }
+  }
+  .testimonial-wrap{
+  .testimonial-card3{
+    background-color:rgba(246, 248, 255, 1);
+    padding: 40px 35px;
+    border-radius: 10px ;
     position: relative;
-    margin-bottom: 110px;
-
-    .carousel-control-prev {
-      position: absolute;
-      background-color: #ffffff;
-      width: 44px;
-      height: 44px;
-      border-radius: 50px;
-      margin-left: 600px;
-      margin-top: 450px;
-      &:hover {
-        background-color: #3147ff;
-        svg {
-          path {
-            fill: white;
-          }
-        }
-      }
+    max-width: 570px;
+    width: 100%;
+    @include xxl-down-device(){
+      padding: 35px 25px;
     }
-
-    .carousel-control-next {
-      position: absolute;
-      background-color: #ffffff;
-      width: 44px;
-      height: 44px;
-      border-radius: 50px;
-      margin-right: 600px;
-      margin-top: 450px;
-      &:hover {
-        background-color: #3147ff;
-        svg {
-          path {
-            fill: white;
-          }
-        }
-      }
+    @include sm-down-device(){
+      padding: 30px 20px;
     }
-
-    .check-card {
-      background-color: #f6f8ff;
-      border-radius: 24px;
-      padding: 30px;
-      position: relative;
-      .client-div {
-        display: flex;
-        gap: 23px;
-        margin-top: 36px;
-        position: relative;
-        .write-side-shape {
-          position: absolute;
-        }
-
-        h2 {
-          color: var(--title-color);
-          font-family: var(--font-public-sans);
-          font-size: 24px;
-          font-weight: 600;
-          line-height: 36px;
-        }
-
-        h5 {
-          color: var(--primary-color);
-          font-family: var(--font-poppins);
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 28px;
-        }
-      }
-
-      p {
-        max-width: 504px;
-        width: 100%;
-        color: var(--paragraph-color);
+    .logo-area{
+      margin-bottom: 32px;
+    }
+    .content{
+    
+      p{
         font-family: var(--font-poppins);
-        font-size: 22px;
         font-weight: 400;
-        line-height: 38px;
-      }
-      .right-side-shape {
-        position: absolute;
-        right: 10%;
-        bottom: 10%;
+        font-size: 24px;
+        line-height: 44px;
+        color: rgba(81, 81, 81, 1);
+        max-width: 488px;
+        width: 100%;
+        margin-bottom: 39px;
       }
     }
+    .author-area{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include sm-down-device(){
+          margin-bottom: 25px;
+        }
+        .author-wrapper{
+          display: flex;
+          align-items: center;
+          gap: 23px;
+        .author-img{
+            img{
+                height: 89px;
+                width: 89px;
+            }
+        }
+        .content{
+            h6{
+                color: rgba(22, 22, 22, 1);
+                font-family: var(--font-public-sans);
+                font-size: 20px;
+                font-weight: 700;     
+                line-height:36px;  
+            }
+            span{
+                color:rgba(38, 37, 46, 0.7);
+                font-family: var(--font-poppins);
+                font-weight: 400;     
+                font-size: 17px;
+                line-height: 28px;
+            }
+        }
+      }
+    }
+  }
   }
 }
 // feedback section end
