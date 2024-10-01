@@ -7772,6 +7772,9 @@ header.style-4 .nav-right .mobile-menu-btn svg {
 .our-expertise-section .expertise-card {
   background-color: white;
   border-radius: 24px;
+  position: relative;
+  margin-bottom: -330px;
+  z-index: 1;
 }
 .our-expertise-section .expertise-card .service-card-4 {
   position: relative;
@@ -7895,6 +7898,7 @@ header.style-4 .nav-right .mobile-menu-btn svg {
 
 .expertise-bottom-area {
   background-color: #F8F4FF;
+  padding-top: 300px;
 }
 .expertise-bottom-area .expertise-bottom-content {
   display: flex;

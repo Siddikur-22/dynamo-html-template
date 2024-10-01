@@ -9167,8 +9167,9 @@ header.style-4 {
 .expertise-card{
     background-color: white;
     border-radius: 24px;
-    
-    // margin-bottom: -135px;
+    position: relative;
+    margin-bottom: -330px;
+    z-index: 1;
     .service-card-4 {
       position: relative;
       border: 1px solid #C8D3FF66;
@@ -9297,7 +9298,7 @@ header.style-4 {
 }
 .expertise-bottom-area{
   background-color: #F8F4FF;
-  // padding-top: 135px;
+  padding-top:300px;
   .expertise-bottom-content {
     display: flex;
     align-items: center;
