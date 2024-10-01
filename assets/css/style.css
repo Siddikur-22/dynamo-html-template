@@ -1276,6 +1276,7 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 1;
 }
 .service-section .service-card:hover .write-arrow {
   opacity: 1;
@@ -1303,10 +1304,10 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   position: absolute;
   right: 0%;
   bottom: 0%;
-  z-index: 1;
 }
 .service-section .service-card .bottom-right-shape svg {
   border-radius: 0px 0px 16px;
+  z-index: -1;
 }
 .service-section .service-card:hover {
   background-color: #1e2fc0;

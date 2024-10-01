@@ -1439,6 +1439,7 @@ header.style-1 {
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       text-align: center;
+      z-index: 1;
     }
     &:hover .write-arrow {
       opacity: 1;
@@ -1468,9 +1469,9 @@ header.style-1 {
       position: absolute;
       right: 0%;
       bottom: 0%;
-      z-index: 1;
      svg{
       border-radius:0px 0px 16px;
+      z-index: -1;
      }
     }
     &:hover {
