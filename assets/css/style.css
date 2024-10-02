@@ -1711,8 +1711,6 @@ header.style-1 .main-menu > ul li.menu-item-has-children > i {
   padding: 40px 35px;
   border-radius: 10px;
   position: relative;
-  max-width: 570px;
-  width: 100%;
 }
 @media (max-width: 1399px) {
   .feedback-section .testimonial-wrap .testimonial-card3 {
